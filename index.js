@@ -1,6 +1,6 @@
 const protocol = "https";
 const server_uri = "192.168.43.103:3000";
-const cssPath = "https://192.168.43.103/chat-widget/index.css";    // path to the css file
+const cssPath = "https://helpful-madeleine-61e48d.netlify.app/index.css";    // path to the css file
 const NotificationUrl = "./assets/notif-audio.mp3";
 const ServerfileDir = "file:///C:/Users/MkRoD/Desktop/Alquify-server/temp"; //replace with url of dir where the file are stored
 const userDPurl = "https://cdn.vectorstock.com/i/750p/31/67/robot-icon-bot-sign-design-chatbot-symbol-vector-27973167.avif";
