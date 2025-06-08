@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.8.1/socket.io.js" integrity="sha512-8BHxHDLsOHx+flIrQ0DrZcea7MkHqRU5GbTHmbdzMRnAaoCIkZ97PqZcXJkKZckMMhqfoeaJE+DNUVuyoQsO3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+
+  <div class="alquify_chat_widget_container_ss2d1-tup5-5de0-00ef">
+    <div class="alquify_chat_widget_header_ss2d1-tup5-5de0-00ef">
+        <div class="alquify_chat_widget_header_left_ss2d1-tup5-5de0-00ef">
+            <img src="https://fortunestech.com.ng/wp-content/uploads/2024/12/C5FFB927-0DE0-4558-AFF1-C05D2F8A864C-e1733359546314.jpeg" id="alquify_chat_widget_user_dp_ss2d1-tup5-5de0-00ef" alt=""> <!-- Dp -->
+        </div>
+
+        <div class="alquify_chat_widget_header_center_ss2d1-tup5-5de0-00ef">
+            <div class="alquify_chat_widget_header_center_up_ss2d1-tup5-5de0-00ef">How may we help?</div>
+            <div class="alquify_chat_widget_header_center_down_ss2d1-tup5-5de0-00ef">
+                <div class="alquify_chat_widget_header_center_down_status_ss2d1-tup5-5de0-00ef"></div>
+                <div class="alquify_chat_widget_header_center_down_name_ss2d1-tup5-5de0-00ef">Average Response Time Frame</div>
+            </div>
+        </div>
+
+        <div class="alquify_chat_widget_header_right_ss2d1-tup5-5de0-00ef">
+            <box-icon name='dots-vertical-rounded' onclick="openOptions()"></box-icon>
+            <box-icon name='chevron-down' onclick="closeChatWidget()"></box-icon>
+        </div>
+    </div>
+    
+      <div class="alquify_notification_bar">
+        <box-icon type='solid' color="#fa5a2a" name='error-circle'></box-icon>
+        <span class="alquify_notification_text">No Internet Connection</span>
+      </div>
+
+    <div class="alquify_chat_widget_main_ss2d1-tup5-5de0-00ef">
+
+     <div class="chat_widget_main_response_container">
+       <div class="chat_widget_main_response_left">
+        <img src="https://cdn.vectorstock.com/i/750p/31/67/robot-icon-bot-sign-design-chatbot-symbol-vector-27973167.avif" id="chat_widget_response_dp" />
+       </div>
+       <div class="chat_widget_main_response_right">
+        <span class="chat_widget_main_response_right_message">Thanks for the message. Our team is offline.  We will contact you back as soon as we can.</span>
+        <span class="chat_widget_main_response_right_time">20:51</span>
+       </div>
+
+       <div class="chat_widget_main_date_time">02/02/2025</div>
+     </div>
+
+     <div class="chat_widget_main_message_container">
+       <div class="chat_widget_main_message_right">
+        <span class="chat_widget_main_response_right_message" style="color: ${scheme};">Thanks for the message. Our team is offline.  We will contact you back as soon as we can.</span>
+        <span class="chat_widget_main_response_right_time" style="color: ${scheme};">20:51</span>
+       </div>
+
+       <div class="chat_widget_main_date_time">02/02/2025</div>
+     </div>
+
+     
+
+     <div class="chat_widget_main_response_container">
+       <div class="chat_widget_main_response_left">
+        <img src="https://cdn.vectorstock.com/i/750p/31/67/robot-icon-bot-sign-design-chatbot-symbol-vector-27973167.avif" id="chat_widget_response_dp" />
+       </div>
+       <div class="chat_widget_main_response_right">
+        <div class="chat_widget_main_response_right_file_container">
+          <span class="chat_widget_main_response_right_filename">Robot Picture...</span>
+          <span class="chat_widget_main_response_right_file_extension" data-url="https://cdn.vectorstock.com/i/750p/31/67/robot-icon-bot-sign-design-chatbot-symbol-vector-27973167.avif" style="color: ${scheme};" onclick="openFile(this)">AVIF</span>
+        </div>
+        <span class="chat_widget_main_response_right_time">20:51</span>
+       </div>
+
+       <div class="chat_widget_main_date_time">02/02/2025</div>
+     </div>
+
+
+    <div class="chat_widget_main_message_container">
+       <div class="chat_widget_main_message_right">
+        <div class="chat_widget_main_response_right_file_container" style="color: ${scheme};">
+         <span class="chat_widget_main_response_right_filename">Ai Image</span>
+         <span class="chat_widget_main_message_right_file_extension" data-url="https://cdn.vectorstock.com/i/750p/31/67/robot-icon-bot-sign-design-chatbot-symbol-vector-27973167.avif" style="background-color: ${scheme};" onclick="openFile(this)">AVIF</span>
+        </div>
+        <span class="chat_widget_main_response_right_time" style="color: ${scheme};">20:51</span>
+       </div>
+
+       <div class="chat_widget_main_date_time">02/02/2025</div>
+     </div>
+
+     <div class="chat_widget_main_activity_container">
+       <img src="https://cdn.vectorstock.com/i/750p/31/67/robot-icon-bot-sign-design-chatbot-symbol-vector-27973167.avif" id="chat_widget_main_activity_dp" />
+       <span class="chat_widget_main_activity">MkRoD joined the chat</span>
+     </div>
+
+
+
+    </div>
+
+    <div class="alquify_chat_widget_emoji_container_ss2d1-tup5-5de0-00ef"></div>
+
+    <div class="alquify_chat_widget_options_container_ss2d1-tup5-5de0-00ef">
+      <div class="alquify_chat_widget_options">
+        <div class="alquify_chat_widget_options_header">
+            <span class="alquify_chat_widget_options_header_text">Settings</span>
+            <box-icon name='x' color="#838383" onclick="openOptions()" class="alquify_chat_widget_options_header_x"></box-icon>
+        </div>
+
+        <div class="alquify_chat_widget_options_body">
+          <div class="alquify_chat_widget_option">
+            <box-icon name='bell-ring' type='solid' size="sm" color=${theme} ></box-icon>
+            <span class="alquify_chat_widget_option_label">Notification sound</span>
+            <div class="alquify_chat_widget_option_switch_control_container">
+               <label class="alquify_switch">
+                  <input type="checkbox" id="alquify_checkbox" onchange="setNotif()" ${localStorage.getItem("alquify_chat_notif") === "true" && "checked"}>
+                  <span class="alquify_slider alquify_round"></span>
+                </label>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="alquify_chat_widget_filePreview_container_ss2d1-tup5-5de0-00ef" onclick="previewUrl(this)"></div>
+    <box-icon type='solid' name='x-circle' color="#838383" class="close_alquify_preview" onclick="closePreviewUrl(this)"></box-icon>
+
+    <div class="alquify_chat_widget_footer_ss2d1-tup5-5de0-00ef">
+        <form onsubmit="handleSubmit(event, this)" enctype="multipart/form-data" id="alquify_message_form" class="alquify_chat_widget_footer_input_controls_ss2d1-tup5-5de0-00ef">
+            <div class="alquify_chat_widget_footer_input_emoji_ss2d1-tup5-5de0-00ef">
+                <div class="alquify_input_placeholder_text">Type a message</div>
+                <div contenteditable="true" name="alquify_chat_widget_input" class="alquify_chat_widget_footer_input"></div>
+                <box-icon name='smile' color="#9b9b9b" class="alquify_chat_widget_footer_smile_emoji" onclick="toggleEmoji()"></box-icon>
+            </div>
+            <div class="alquify_chat_widget_footer_input_file_send_ss2d1-tup5-5de0-00ef">
+                <box-icon class="box-icon-paperclip" name='paperclip' size="xs" color="#9b9b9b"></box-icon>
+                <input type="file" name="file" onchange="previewFile(event)" id="alquify_chat_file" accept="application/*, text/*, image/*" />
+                  <button class="box-icon-send" type="submit">
+                    <box-icon name='send' size="xs" color=${scheme}></box-icon>
+                  </button>
+            </div>
+        </form>
+        <a class="alquify_chat_widget_footer_powered_text_ss2d1-tup5-5de0-00ef" href="">Powered by Alquify</a>
+    </div>
+</div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/emoji-mart@latest/dist/browser.js"></script>
+    <script 
+    src="http://127.0.0.1:5500/index.js" 
+    data-user-id="mk-1de0-r1nu-d1n0-1e0f-fda5"
+    data-theme="#00bfa5"
+    data-color-scheme="#ffffff"
+    data-size="cssSize"
+    id="alquify-script-chat-widget"
+    ></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+# Chat Widget
+
+This project is a customizable chat widget that can be embedded into any website. The chat widget allows users to interact with customer support or automated chatbots in real-time. It is designed to be lightweight, responsive, and easy to integrate.
+
+## Features
+
+- **Real-time Messaging**: Supports instant messaging between users and support agents or chatbots.
+- **Customizable UI**: Easily change the appearance of the chat widget to match your website's design.
+- **Responsive Design**: Works seamlessly on both desktop and mobile devices.
+- **Easy Integration**: Simple to embed with just a few lines of code.
+- **Support for Emojis and Attachments**: Users can send emojis and file attachments during the chat.
+
+## Installation
+
+To install the chat widget, follow these steps:
+
+1. Download the chat widget package from the repository.
+2. Include the chat widget script in your HTML file:
+    ```html
+    <script src="path/to/chat-widget.js"></script>
+    ```
+3. Initialize the chat widget with your configuration:
+    ```javascript
+    const chatWidget = new ChatWidget({
+         apiKey: 'YOUR_API_KEY',
+         userId: 'USER_ID',
+         theme: 'light', // or 'dark'
+         position: 'bottom-right' // or 'bottom-left'
+    });
+    chatWidget.init();
+    ```
+
+## Usage
+
+Once the chat widget is installed and initialized, it will appear on your website. Users can click on the widget to start a chat session. The chat messages will be sent to your customer support team or chatbot for handling.
+
+## Customization
+
+You can customize the chat widget by modifying the configuration options during initialization. For example, you can change the theme, position, and other settings to match your website's design.
+
+## Contributing
+
+We welcome contributions to improve the chat widget. If you have any suggestions or bug reports, please open an issue or submit a pull request on the repository.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
